@@ -1,9 +1,9 @@
 name: Nightly Build
 on:
   push:
-  workflow_dispatch:
-  schedule:
-    - cron: '*/20 * * * *'
+  # workflow_dispatch:
+  # schedule:
+  #   - cron: '*/20 * * * *'
 jobs:
   date:
     runs-on: ubuntu-latest
